@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Barbanet_SampleAttributeInstaller
+ *
+ * @copyright Copyright (c) 2021 Damián Culotta. (https://www.damianculotta.com.ar/)
+ * @license   https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Barbanet_SampleAttributeInstaller" >
+        <sequence>
+            <module name="Magento_Store"/>
+            <module name="Magento_Eav"/>
+        </sequence>
+    </module>
+</config>

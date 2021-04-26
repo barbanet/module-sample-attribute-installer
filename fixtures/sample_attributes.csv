@@ -1,0 +1,19 @@
+frontend_label,frontend_input,is_required,option,default,attribute_code,is_global,default_value_text,default_value_yesno,default_value_date,default_value_textarea,is_unique,is_searchable,is_visible_in_advanced_search,is_comparable,is_filterable,is_filterable_in_search,position,is_used_for_promo_rules,is_html_allowed_on_front,is_visible_on_front,used_in_product_listing,used_for_sort_by,attribute_set
+Color,select,,"Adobe Red
+Magento Orange
+Shopware Blue",,color,1,,0,,,0,0,0,,1,0,,1,1,0,1,0,"Top
+Bottom
+Bag
+Gear
+Sprite Stasis Ball
+Sprite Yoga Strap"
+Custom Attribute with Options,select,0,"Option 1
+Option 2
+Option 3
+Option 4
+Option 5",,custom_attribute_with_options,1,,0,,,0,0,0,,1,0,,1,1,0,1,0,"Sprite Stasis Ball
+Sprite Yoga Strap"
+Another attribute,boolean,0,,,another_attribute,1,,0,,,0,0,0,,1,0,,1,1,0,0,0,"Gear
+Bag
+Top
+Bottom"
