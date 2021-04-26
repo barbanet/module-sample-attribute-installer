@@ -1,0 +1,22 @@
+{
+    "name": "barbanet/module-sample-attribute-installer",
+    "description": "Create and edit Product attributes using CSV files",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "0.1.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-eav": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Barbanet\\SampleAttributeInstaller\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
